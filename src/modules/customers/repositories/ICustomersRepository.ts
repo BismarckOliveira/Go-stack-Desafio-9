@@ -7,3 +7,4 @@ export default interface ICustomersRepository {
   findByEmail(email: string): Promise<Customer | undefined>;
   findById(id: string): Promise<Customer | undefined>;
 }
+//dd
